@@ -1,1 +1,27 @@
-<script src="https://widget.dovesoft.ltd/widget/widget.js?bot=1" async></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Widget Test Page</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+    .hero { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; text-align: center; padding: 40px 20px; }
+    h1 { font-size: 2rem; font-weight: 700; color: #4f46e5; }
+    p  { color: #64748b; font-size: 1.1rem; max-width: 480px; line-height: 1.6; }
+    .badge { background: #ede9fe; color: #6d28d9; font-size: 0.8rem; font-weight: 600; padding: 6px 14px; border-radius: 99px; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <span class="badge">🤖 DoveSoft Widget Demo</span>
+    <h1>Chat Widget Test</h1>
+    <p>The chat bubble should appear in the bottom-right corner. Click it to open the widget.</p>
+    <p style="font-size:0.85rem; color:#94a3b8;">If you don't see a bubble, open browser DevTools → Console and check for [WebWidget] logs.</p>
+  </div>
+
+  <!-- DoveSoft Web Widget -->
+  <script src="https://widget.dovesoft.ltd/widget/widget.js?bot=1" async></script>
+</body>
+</html>
